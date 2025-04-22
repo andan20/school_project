@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-bot = telebot.TeleBot("5283929903:AAFvdMRcQGdDjYKXNrUZQ2BMd8vljSEGNVY", parse_mode=None)
+bot = telebot.TeleBot(token, parse_mode=None)
 
 name = ''
 helps = ''
